@@ -1,0 +1,29 @@
+[
+  {
+    "degree": "Diploma of Secondary Education (Natural Sciences)",
+    "university": "Mathematical Grammar School",
+    "universityURL": "",
+    "start": "2010-01-01",
+    "end": "2014-12-30",
+    "present": false,
+    "location": "Belgrade, Serbia"
+  },
+  {
+    "degree": "Bachelor of Software Engineering",
+    "university": "Faculty of Technical Sciences, University of Novi Sad",
+    "universityURL": "",
+    "start": "2018-01-01",
+    "end": "2020-12-30",
+    "present": false,
+    "location": "Novi Sad, Serbia"
+  },
+  {
+    "degree": "Serbian IT Education Center (2019)",
+    "university": "Online Serbia",
+    "universityURL": "",
+    "start": "2018-01-01",
+    "end": "2019-12-30",
+    "present": false,
+    "location": "Belgrade, Serbia"
+  }
+]

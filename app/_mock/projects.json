@@ -1,0 +1,88 @@
+[
+  {
+    "title": "The Ultimate Recruiter's Assistant App — Jugnu Tech Pvt. Ltd.",
+    "start": "2019-07-01",
+    "end": "",
+    "present": true,
+    "link": "reachout-1b7f6.web.app",
+    "description": [
+      "Me and my team built an AI-powered Web application which with our AI's core features, recruiters can simplify their email outreach, streamline their processes, and achieve unparalleled success in attracting, engaging, and qualifying candidates. I worked on the back-end development using Express, MongoDB, OpenAI API, AWS SES, AWS S3, Replicate AI, Node Mailer, Joi, Puppeteer, EC2, PM2, and Nginx."
+    ],
+    "skills": [
+      "Express", "MongoDB", "OpenAI API", "AWS SES", "AWS S3", "Replicate AI", "Node Mailer", "Joi", "Puppeteer", "Nginx", "AI Email Generator", "AI Job Description Generator", "AI Resume Screener"
+    ]
+  },
+  {
+    "title": "Travel Agency App — Travelus Pvt. Ltd.",
+    "start": "2018-09-01",
+    "end": "2019-06-30",
+    "present": false,
+    "link": "https://safra.io/",
+    "description": [
+      "I have designed and developed a full-stack web app for 2Expedition, a travel agency in Dubai. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2"
+    ],
+    "skills": ["NextJS", "Tailwind CSS", "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"]
+  },
+  {
+    "title": "Athletic Management Platform — Athletic ALL. Ltd.",
+    "start": "2018-01-01",
+    "end": "2018-08-30",
+    "present": false,
+    "link": "https://overtimeam.com/",
+    "description": [
+      "I built the platform that provides all-in-one solution for athletic organizations, empowering school athletic directors, coaches, trainers, gyms, and league admins to streamline athlete registration, manage teams, schedule events, organize inventory, and foster secure communication."
+    ],
+    "skills": ["React", "Bootstrap", "SCSS", "Stripe", "Express", "TypeScript", "MongoDB", "Azure Blob", "OpenAI API", "Cronjob", "JWT"]
+  },
+  {
+    "title": "Distribution Management System — Salesflo Pvt. Ltd.",
+    "start": "2018-01-01",
+    "end": "2018-08-30",
+    "present": false,
+    "link": "https://salesflo.com/",
+    "description": [
+      "SaaS-based distribution management system serving FMCG companies, both locally and internationally.",
+      "Efficiently managed a high volume of daily orders, invoices, and inventory items.",
+      "Created reporting tools and multiple reports, reducing report generating time by 80%."
+    ],
+    "skills": [
+      "Amazon Web Services (AWS)",
+      "Node.js",
+      "PHP",
+      "REST APIs",
+      "MySQL",
+      "NoSQL",
+      "Git",
+      "Bootstrap",
+      "JavaScript",
+      "jQuery",
+      "HTML",
+      "Cascading Style Sheets (CSS)",
+      "AWS Lambda"
+    ]
+  },
+  {
+    "title": "Home Service App — Salesflo Pvt. Ltd.",
+    "start": "2018-01-01",
+    "end": "2018-08-30",
+    "present": false,
+    "link": "https://salesflo.com/",
+    "description": [
+      " I built a comprehensive home service web application that connects users with local service providers for various tasks such as cleaning, plumbing, electrical work, and more. The platform allows users to easily book services, manage appointments, and make secure payments online. Service providers can create profiles, list their services, and manage bookings through an intuitive dashboard."
+    ],
+    "skills": [
+      "Node.js",
+      "PHP",
+      "REST APIs",
+      "MySQL",
+      "NoSQL",
+      "Git",
+      "Bootstrap",
+      "JavaScript",
+      "jQuery",
+      "HTML",
+      "Cascading Style Sheets (CSS)",
+      "AWS Lambda"
+    ]
+  }
+]
