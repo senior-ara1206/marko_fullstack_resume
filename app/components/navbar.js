@@ -14,7 +14,7 @@ const links = [
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
+    <nav className="navbar navbar-expand-lg navbar-light site-navbar py-3">
       <div className="container-fluid">
         <Link className="navbar-brand" href="/">
           <div className="d-flex align-items-center gap-2 px-2">

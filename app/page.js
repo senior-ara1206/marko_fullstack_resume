@@ -14,7 +14,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex-shrink-0">
+    <main className="flex-shrink-0 site-content">
       <Navbar />
       <Header />
       <div className="container px-3 pb-5">
