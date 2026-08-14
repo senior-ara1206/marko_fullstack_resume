@@ -100,13 +100,16 @@ a:hover {
   margin-bottom: 5vw;
 }
 
-.profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
+.profile-photo {
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+.profile .profile-img {
+  object-fit: cover;
+  border-radius: inherit;
 }
 
 .profile .dots-1 {
@@ -158,9 +161,6 @@ a:hover {
     height: 60vw;
     width: 60vw;
   }
-  .profile .profile-img {
-    height: 65vw;
-  }
   .profile .dots-1 {
     width: 3vw;
     right: 1.5vw;
@@ -182,9 +182,6 @@ a:hover {
   .profile {
     height: 50vw;
     width: 50vw;
-  }
-  .profile .profile-img {
-    height: 55vw;
   }
   .profile .dots-1 {
     width: 3vw;
@@ -208,9 +205,6 @@ a:hover {
     height: 40vw;
     width: 40vw;
   }
-  .profile .profile-img {
-    height: 45vw;
-  }
   .profile .dots-1 {
     width: 1.5vw;
     right: 0.75vw;
@@ -232,9 +226,6 @@ a:hover {
   .profile {
     height: 35vw;
     width: 35vw;
-  }
-  .profile .profile-img {
-    height: 40vw;
   }
   .profile .dots-1 {
     width: 1.5vw;

@@ -14,7 +14,7 @@ import {
 } from "./icons";
 
 import personal from "@/app/_mock/personal.json";
-import profilePhoto from "@/app/assets/shakir-photo.png";
+import profilePhoto from "@/app/assets/shakir-profile.png";
 import { ProfileDots1, ProfileDots2, ProfileDots3, ProfileDots4 } from "./svg";
 
 export default function Header() {
@@ -134,18 +134,17 @@ export default function Header() {
           <div className="col-md-6 mb-3">
             <div className="d-flex justify-content-center mt-xxl-0">
               <div className="profile background-gradient">
-                <Image
-                  className="profile-img"
-                  alt={personal.name}
-                  src={profilePhoto}
-                  width={"100%"}
-                  height={"120%"}
-                  style={{
-                    width: "120%",
-                    height: "110%",
-                    objectFit: "contain",
-                  }}
-                />
+                <div className="profile-photo">
+                  <Image
+                    className="profile-img"
+                    alt={personal.name}
+                    src={profilePhoto}
+                    fill
+                    sizes="(max-width: 768px) 75vw, 25rem"
+                    style={{ objectFit: "cover" }}
+                    priority
+                  />
+                </div>
                 <div className="dots-1">
                   <ProfileDots1 />
                 </div>

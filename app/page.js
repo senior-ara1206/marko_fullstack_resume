@@ -18,14 +18,13 @@ export default function Home() {
       <Navbar />
       <Header />
       <div className="container px-3 pb-5">
-        <div className="row gx-5">
-          <div className="col-md-7">
+        <div className="row gx-5 align-items-stretch">
+          <div className="col-md-7 d-flex flex-column">
             <Experience />
             <hr className="mt-4 pt-4" />
             <Projects />
-            <hr className="mt-4 pt-4" />
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 d-flex flex-column">
             <TechnicalSkills />
             <hr className="mt-4 pt-4" />
             <Educations />
@@ -54,10 +53,9 @@ export default function Home() {
                 </div>
               </div>
             </section>
-            <hr className="mt-4 pt-4" />
           </div>
-
         </div>
+        <hr className="mt-4 pt-4" />
       </div>
     </main>
   );

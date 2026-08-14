@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 import personal from "@/app/_mock/personal.json";
-import photo from "@/app/assets/shakir-profile.png";
+import photo from "@/app/assets/shakir-photo.png";
 
 const links = [
   { id: "experience", title: "💼 Experience" },

@@ -7,8 +7,12 @@ const titilliumWeb = Titillium_Web({
 });
 
 export const metadata = {
-  title: "Milan Kojadinovic - Portfolio",
+  title: "Marko Kujacic - Portfolio",
   description: "Technical Lead & Full Stack Developer",
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    apple: [{ url: "/apple-icon.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({ children }) {
