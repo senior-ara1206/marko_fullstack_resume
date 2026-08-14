@@ -7,7 +7,7 @@ const titilliumWeb = Titillium_Web({
 });
 
 export const metadata = {
-  title: "Marko Kujacic - Portfolio",
+  title: "Marko Kujacic - Resume",
   description: "Technical Lead & Full Stack Developer",
   icons: {
     icon: [
