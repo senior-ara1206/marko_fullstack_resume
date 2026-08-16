@@ -7,8 +7,9 @@ import photo from "@/app/assets/shakir-photo.png";
 
 const links = [
   { id: "experience", title: "💼 Experience" },
+  { id: "skills", title: "👨‍💻 Skills" },
   { id: "education", title: "🎓 Education" },
-  { id: "projects", title: "💻 Projects" },
+  { id: "certifications", title: "📃 Certifications" },
   { id: "contact", title: "📞 Contact Me" },
 ];
 

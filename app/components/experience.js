@@ -2,7 +2,7 @@ import React from "react";
 
 import Link from "next/link";
 import { IconLink } from "./icons";
-import { dateDiff, dateFormat } from "../utils/utils";
+import { dateFormat } from "../utils/utils";
 
 import experiences from "@/app/_mock/experiences.json";
 
@@ -20,11 +20,15 @@ export default function Experience() {
           <div className="card-body p-3">
             <div className="fs-5 fw-bolder">{experience.position}</div>
             <div className="small fw-bolder">
-              <Link target="_blank" href={experience.companyURL}>
-                {experience.companyName} {experience.location}
-                {"  "}
-                <IconLink />
-              </Link>
+              {experience.companyURL ? (
+                <Link target="_blank" href={experience.companyURL}>
+                  {experience.companyName} <IconLink />
+                </Link>
+              ) : (
+                experience.companyName
+              )}
+              {" · "}
+              {experience.location}
             </div>
             <div className="small text-muted">
               {dateFormat(experience.start)} {" — "}
@@ -34,6 +38,15 @@ export default function Experience() {
                 dateFormat(experience.end)
               )}
             </div>
+            {experience.points?.length ? (
+              <ul className="small mt-3 mb-0 ps-3">
+                {experience.points.map((point, pointIndex) => (
+                  <li className="mb-1" key={pointIndex}>
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </div>
         </div>
       ))}

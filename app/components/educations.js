@@ -20,9 +20,13 @@ export default function Educations() {
               {education.degree}
             </div>
             <div className="small fw-bolder">
-              <Link target="_blank" href={education.universityURL}>
-                {education.university} <IconLink />
-              </Link>
+              {education.universityURL ? (
+                <Link target="_blank" href={education.universityURL}>
+                  {education.university} <IconLink />
+                </Link>
+              ) : (
+                education.university
+              )}
             </div>
             <div className="small text-muted">
               {dateFormat(education.start, "Y")}

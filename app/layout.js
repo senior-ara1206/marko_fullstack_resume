@@ -7,8 +7,9 @@ const titilliumWeb = Titillium_Web({
 });
 
 export const metadata = {
-  title: "Marko Kujacic - Resume",
-  description: "Technical Lead & Full Stack Developer",
+  title: "Marko Kujacic | Senior Software Engineer",
+  description:
+    "Senior Software Engineer specializing in full-stack products, APIs, NetSuite integrations, cloud infrastructure, DevOps, and AI engineering.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },

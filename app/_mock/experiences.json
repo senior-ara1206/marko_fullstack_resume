@@ -1,37 +1,95 @@
 [
   {
-    "position": "Lead Full Stack Engineer",
-    "companyName": "Beyond Creation Agency (Remote),",
-    "companyURL": "https://www.jugnu.pk",
-    "start": "2023-10-01",
+    "position": "AI Engineer — AI-Assisted Projects (Freelance / Independent)",
+    "companyName": "Northloop.ai | DataAnnotation.ai | Handshake.ai | Outlier.ai",
+    "companyURL": "",
+    "start": "2024-12-01",
     "end": "",
     "present": true,
+    "location": "Remote, US",
+    "points": [
+      "Built and experimented with AI-integrated applications for Northloop AI's US clients, including AI APIs and model fine-tuning for specific use cases.",
+      "Completed AI engineering and data work through DataAnnotation.ai, Handshake.ai, and Outlier.ai, covering model evaluation, prompt and quality review, and remote delivery.",
+      "Applied C/C++, Python, and full-stack development skills to connect AI components with practical application logic.",
+      "Evaluated model behavior through iterative testing, identifying failure cases, inconsistent outputs, and edge cases.",
+      "Applied code review, static analysis, and unit testing to traditional and AI-assisted development workflows, and documented technical findings clearly."
+    ]
+  },
+  {
+    "position": "NetSuite & E-Commerce Engineer",
+    "companyName": "Larkfield Software",
+    "companyURL": "",
+    "start": "2024-08-01",
+    "end": "2026-06-30",
+    "present": false,
+    "location": "Remote, UK",
+    "points": [
+      "Built and maintained NetSuite ERP integrations and e-commerce workflow automation using SuiteScript, Python, and REST/SOAP API connectors.",
+      "Developed endpoints syncing orders, inventory, and customers with Shopify and custom storefronts, reducing setup time by 20% through reusable service wrappers.",
+      "Implemented VAT, GBP multi-currency pricing, and Royal Mail and third-party carrier feeds in NetSuite order-to-cash workflows.",
+      "Collaborated with engineering, product, and QA teams through code reviews, sprint planning, and technical documentation.",
+      "Resolved 95% of reported NetSuite and storefront integration issues on the first pass through structured root-cause analysis."
+    ]
+  },
+  {
+    "position": "Software Engineer",
+    "companyName": "Meridian Dataworks",
+    "companyURL": "",
+    "start": "2022-10-01",
+    "end": "2024-08-31",
+    "present": false,
+    "location": "Remote, Canada",
+    "points": [
+      "Engineered and maintained data ingestion pipelines and automation workflows on contract lifecycle management platform, handling 50+ order, inventory, and fulfilment feeds per quarter.",
+      "Built Salesforce CRM integrations and custom reporting dashboards, maintaining 100% data accuracy and enabling real-time pipeline visibility for leadership and account teams.",
+      "Designed and deployed targeted multi-channel automation systems that increased customer engagement with key accounts by 25%.",
+      "Contributed to back-end API development and data modelling efforts, ranked in the top 10% of engineering contributors for feature delivery velocity.",
+      "Documented reusable code modules and workflow blueprints, improving team delivery consistency and cutting onboarding time by 40%."
+    ]
+  },
+  {
+    "position": "Founding Software Engineer",
+    "companyName": "Delta Nile Tech",
+    "companyURL": "",
+    "start": "2022-01-01",
+    "end": "2022-10-31",
+    "present": false,
     "location": "Cairo, Egypt",
     "points": [
-      "Led a Go-to-market team of 6 developers to successfully deliver a bug free product, ensuring a remarkable 99.9% SLA compliance rate.",
-      "Collaborated with the CEO, stakeholders, and the product team to drive and achieve key company objectives.",
-      "Significantly boosted sales by 60% through effective management and substantial improvements to B2B e-commerce products.",
-      "Successfully developed and launched an upgraded product version with a strong emphasis on engineering excellence, resulting in an impressive 90% growth milestone.",
-      "Designed and executed campaigns, notifications, a loyalty program, and advanced analytics that led to an outstanding 40% increase in basket size, order volumes, and customer retention rate."
-    ],
-    "skills": "Amazon Web Services (AWS) · Express.js · MongoDB · Redis · Redux.js · Microservices · JSON Web Token (JWT) · Authentication Protocols · Agile Methodologies · Continuous Integration and Continuous Delivery (CI/CD) · Bootstrap · HTML5 · Full-Stack Development · Front-End Development · Back-End Web Development · Technical Leadership · Management · Data Architecture · Software Development · Project Management · Skill Development · Teamwork · Databases · Leadership · Agile Development"
+      "Hired as the first engineering hire at Delta Nile Tech; architected the company's end to end project order, catalogue, and data pipeline infrastructure from scratch.",
+      "Built Python-based scripts and internal tools for product catalogue enrichment, NetSuite record automation, and order sequencing — systems now used across the engineering and revenue teams.",
+      "Integrated regional MENA payment gateways and cash-on-delivery courier APIs into the NetSuite fulfilment flow, supporting Arabic/English storefronts and EGP pricing.",
+      "Maintained 100% NetSuite data integrity through automated validation scripts.",
+      "Lifted checkout conversion by 25% through cart-recovery and catalogue-quality automation."
+    ]
   },
   {
-    "position": "FullStack Engineer",
-    "companyName": "Web Labs LLC. Ltd,",
-    "companyURL": "https://web-labs.rs/",
-    "start": "2018-06-01",
-    "end": "2023-09-30",
+    "position": "Remote Software Developer — US Client Projects",
+    "companyName": "Independent Contractor",
+    "companyURL": "",
+    "start": "2017-01-01",
+    "end": "2021-09-30",
     "present": false,
-    "location": "Belgrade, Serbia"
+    "location": "Remote, US",
+    "points": [
+      "Delivered web applications and internal tools using JavaScript, React, Node.js, Python, and REST APIs.",
+      "Translated product requirements into scoped milestones, technical documentation, and reliable releases across US time zones.",
+      "Built third-party integrations, data workflows, and deployment automation while troubleshooting production issues.",
+      "Managed projects from discovery through testing and handover with clear updates and maintainable documentation."
+    ]
   },
   {
-    "position": "Freelancer Developer",
-    "companyName": "Freelance and PeoplePerHour,",
-    "companyURL": "https://salesflo.com",
-    "start": "2011-01-01",
-    "end": "2017-06-28",
+    "position": "Software & Data Solutions Consultant",
+    "companyName": "Vardar Energy",
+    "companyURL": "",
+    "start": "2014-06-01",
+    "end": "2017-08-31",
     "present": false,
-    "location": "Belgrade, Serbia"
+    "location": "Belgrade, Serbia",
+    "points": [
+      "Developed analytical models and client presentations demonstrating solar system ROI and payback periods.",
+      "Ranked #1 in branch performance, generating €320,000 in new business over six months.",
+      "Maintained a structured CRM referral pipeline, improving client acquisition efficiency in Belgrade and the regional market."
+    ]
   }
 ]
