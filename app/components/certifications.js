@@ -17,9 +17,9 @@ export default function Certifications() {
       {certifications.map((certification, i) => (
         <div className="card shadow border-0 rounded mb-2" key={i}>
           <div className="card-body p-3">
-            <div className="fs-5 fw-bolder">{certification.name}</div>
-            <div className="small fw-bolder">{certification.source}</div>
-            <div className="small text-muted">
+            <div className="fw-bolder">{certification.name}</div>
+            <div className="fw-bolder">{certification.source}</div>
+            <div className="text-muted">
               Issued {dateFormat(certification.issued)}{" "}
               {certification.expired
                 ? ` — Expired ${dateFormat(certification.expired)}`
